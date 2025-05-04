@@ -1,3 +1,6 @@
-git add .
-git commit -m "Enkel Next.js konfiguration"
-git push origin main
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+};
+
+export default nextConfig;
