@@ -1,7 +1,3 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
-};
-
-export default nextConfig;
+git add .
+git commit -m "Enkel Next.js konfiguration"
+git push origin main
